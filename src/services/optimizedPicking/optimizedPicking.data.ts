@@ -26,7 +26,6 @@ export class OptimizedPickingData {
             text: 'sortedProducts',
             data: sortedProducts,
         });
-        console.log(sortedProducts)
         return this.collectData(sortedProducts)
     }
     markAsPicked(nextProduct: IMappedProducts): void {
